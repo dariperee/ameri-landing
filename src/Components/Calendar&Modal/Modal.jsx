@@ -16,7 +16,7 @@ const ModalComponent = ({ isVisible, toggleVisibility }) => {
       setTimeout(() => {
         MySwal.fire({
           title: 'Estás por agendar una asesoría gratuita.',
-          html: 'Aquí te ayudaremos, resolviendo dudas, consultas, y explicándote nuestra forma de trabajo.<br/><br/> La reunion dura 20 minutos como maximo, y es totalmente sin compromiso. <br/><br/> Una vez selecionada la fecha y hora, se te enviara un mail detallado con más información.',
+          html: 'Aquí te ayudaremos, resolviendo dudas, consultas, y explicándote nuestra forma de trabajo.<br/><br/> La reunion dura 20 minutos como maximo, sin compromiso. <br/><br/> Una vez selecionada la fecha y hora, se te enviara un mail detallado con más información.',
           icon: 'info',
           dangerMode: true, 
         });
