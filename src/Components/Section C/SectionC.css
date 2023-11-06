@@ -87,3 +87,48 @@
   
   }
   
+
+  @media screen and (max-width: 930px) {
+    .card h2{
+        margin: 1rem;
+        margin-top: 3rem;
+        height: auto;
+        font-size: larger;
+    }
+  }
+
+
+
+  @media screen and (max-width: 700px) {
+    #sectionC{
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: center;
+      background-color: #E7DFD8;
+      height: fit-content;
+    }
+  
+    #sectionC h1{
+        text-align: center;
+    }
+
+    .card h2{
+        margin: 1rem;
+        margin-top: 3rem;
+        height: auto;
+    }
+
+    #cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+       
+    }
+    
+    .card{
+        width: 100%;
+    }
+  
+  }

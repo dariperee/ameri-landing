@@ -2,9 +2,17 @@
     margin: 0;
 }
 
+
 @media screen and (max-width: 420px) {
     .calendar-container {
         margin-top: 1.5rem;
+        padding: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 750px) {
+    .calendar-container {
+        margin-top: 2.2rem;
         padding: 2rem;
     }
   }

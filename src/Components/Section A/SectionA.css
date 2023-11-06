@@ -56,3 +56,40 @@
     font-weight: 200;
   }
 }
+
+
+@media screen and (max-width: 925px) {
+  .text-column{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E7DFD8;
+    width:min-content;
+  }
+
+
+  .text-column p {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+}
+
+
+@media screen and (max-width: 700px) {
+  .text-column{
+    display: flex;
+    background-color: #E7DFD8;
+    width:auto;
+  }
+
+  .image-column {
+    display: none; /* Oculta la columna de la imagen */
+  }
+
+  .text-column p {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+}

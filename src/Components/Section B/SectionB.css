@@ -44,3 +44,14 @@
   }
 
 }
+
+
+@media screen and (max-width: 930px) {
+
+
+
+  #infoB{
+    font-size: larger;
+    width: 80%;
+  }
+}
