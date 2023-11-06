@@ -1,0 +1,40 @@
+/* ModalComponent.css */
+.modal-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background-color: #fff; /* Puedes ajustar el color de fondo según tus preferencias */
+    transition: height 0.8s ease-in-out;
+  }
+
+  .visible {
+    height: 100vh;
+  }
+  
+  /* ModalComponent.css */
+.close-button {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background-color: #333; /* Puedes ajustar el color según tus preferencias */
+    color: #fff;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .close-button:hover {
+    background-color: #555; /* Cambia el color al pasar el ratón sobre él */
+  }
+  
+/* ModalComponent.css */
+.scrollable-content {
+  max-height: 100vh; /* Ajusta la altura máxima según sea necesario */
+  overflow-y: auto; /* Habilita el desplazamiento vertical si el contenido es demasiado largo */
+}
+
+  

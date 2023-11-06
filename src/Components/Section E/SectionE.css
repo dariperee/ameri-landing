@@ -1,0 +1,49 @@
+#sectionE {
+    height: 100vh;
+    display: flex;
+    background-color: #E7DFD8;
+}
+
+#imgCal {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5rem;
+}
+  
+#imgCal img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#contactInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 3rem;
+}
+
+#contactInfo h1{
+    margin-top: 0;
+    margin-bottom: 2rem;
+    font-weight: 300;
+    font-size: 4rem;
+}
+
+#contactInfo h2{
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+}
+
+#contactData{
+    margin-top: 1rem;
+}
+
+
+  
+
+  

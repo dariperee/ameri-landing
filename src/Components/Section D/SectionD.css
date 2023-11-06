@@ -1,0 +1,39 @@
+#sectionD {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    text-align: center;
+    padding: 3rem;
+}
+
+#titleSectionD{
+    height: 50%;
+    font-size: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+#titleSectionD h1{
+    font-weight: 300;
+}
+
+#bgSectionD {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    color: white;
+    font-size: 1.1rem;
+    background-image: url("../../assets/landing4.jpg");
+    background-position: center;
+    background-size: cover;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 1); /* Ajusta los valores según tus preferencias */
+}
+
+#shadowText{
+    background-color: rgba(0, 0, 0, 0.493);
+}

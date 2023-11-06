@@ -1,0 +1,24 @@
+#sectionB {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+}
+
+#titleSectionB{
+  font-size: 3.5rem;
+  font-weight: 200;
+}
+
+#infoB{
+  text-align: center;
+  font-size: larger;
+  width: 60%;
+}
+
+#infoB img{
+  width: 3.3rem;
+  height: 3.1rem;
+}
+

@@ -1,0 +1,35 @@
+#sectionA {
+  display: flex;
+  height: 100vh;
+  background-color: #E7DFD8;
+}
+
+#logo{
+  width: 2.3rem;
+  height: 2.1rem;
+}
+
+.text-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.text-column p {
+  font-size: 4rem;
+  font-weight: 200;
+}
+
+.image-column {
+  flex: 1;
+  display: flex;
+  align-items: stretch;
+}
+
+.image-column img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
