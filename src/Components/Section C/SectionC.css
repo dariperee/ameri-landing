@@ -63,6 +63,16 @@
       height: fit-content;
     }
   
+    #sectionC h1{
+        text-align: center;
+    }
+
+    .card h2{
+        margin: 1rem;
+        margin-top: 3rem;
+        height: auto;
+    }
+
     #cards {
         display: flex;
         flex-direction: column;

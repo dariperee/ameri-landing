@@ -35,7 +35,7 @@ const SectionC = () => {
   return (
     <div id="sectionC" className='fade-up'>
 
-      <h1>A qué nos dedicamos</h1>
+      <h1>A qué nos dedicamos.</h1>
       <section id='cards'>
 
         <div className='card'>
@@ -44,9 +44,9 @@ const SectionC = () => {
           </div>
           <h2>Asesoría para empresas</h2>
           <ul>
-            <li>Analizamos la situación actual de su empresa</li>
+            <li>Analizamos la situación actual de su empresa.</li>
             <li>Identificamos puntos débiles y problemas.</li>
-            <li>Establecemos una asesoría personalizada</li>
+            <li>Establecemos una asesoría personalizada.</li>
           </ul>
         </div>
 
@@ -56,9 +56,9 @@ const SectionC = () => {
           </div>
           <h2>Apalancamiento con redes sociales</h2>
           <ul> 
-            <li>Analizamos y proyectamos estrategias a utilizar</li>
-            <li>Colocamos tu negocio en plataformas populares</li>
-            <li>Analizamos el punto de partida</li>
+            <li>Analizamos y proyectamos estrategias a utilizar.</li>
+            <li>Colocamos tu negocio en plataformas populares.</li>
+            <li>Analizamos el punto de partida.</li>
           </ul>
         </div>
 
@@ -68,8 +68,8 @@ const SectionC = () => {
           </div>
           <h2>Ejecucion y seguimiento</h2>
           <ul>
-            <li>Ejecutamos la estrategia adecuada a su empresa</li>
-            <li>Seguimos el desarrollo de la estrategia ejecutada</li>
+            <li>Ejecutamos la estrategia adecuada a su empresa.</li>
+            <li>Seguimos el desarrollo de la estrategia ejecutada.</li>
             <li>Optimizaciones y análisis por medio de métricas y herramientas profesionales.</li>
           </ul>
         </div>

@@ -29,7 +29,7 @@ const SectionD = () => {
     <div id="sectionD" className="fade-up">
      
         <div id='titleSectionD'>
-          <h1>El impulso que necesitas, <br/> lo encuentras aquí </h1>
+          <h1>El impulso que necesitas, <br/> lo encuentras aquí. </h1>
         </div>
 
         <div id='bgSectionD'>
