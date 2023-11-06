@@ -33,3 +33,26 @@
   height: 100%;
   object-fit: cover;
 }
+
+/* Añade estas reglas al final de tu archivo de estilos o en un archivo específico para estilos responsivos */
+
+@media screen and (max-width: 420px) {
+  .text-column{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #E7DFD8;
+    width:min-content;
+  }
+
+  .image-column {
+    display: none; /* Oculta la columna de la imagen */
+  }
+
+  .text-column p {
+    font-size: 3rem;
+    font-weight: 200;
+  }
+}

@@ -44,6 +44,24 @@
 }
 
 
+@media screen and (max-width: 420px) {
+    #sectionE{
+        display: flex;
+        padding: 1rem;
+        text-align: center;
+        justify-content: center;
+        background-color: #E7DFD8;
+        height: max-content;
+      }
+  
+    #imgCal {
+      display: none; /* Oculta la columna de la imagen */
+    }
+  
+ 
+  }
+
+
   
 
   

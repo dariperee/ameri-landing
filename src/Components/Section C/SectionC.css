@@ -53,3 +53,27 @@
 
 
 
+@media screen and (max-width: 420px) {
+    #sectionC{
+      display: flex;
+      flex-direction: column;
+      padding: 1rem;
+      justify-content: center;
+      background-color: #E7DFD8;
+      height: fit-content;
+    }
+  
+    #cards {
+        display: flex;
+        flex-direction: column;
+        gap: 3rem;
+        text-align: center;
+       
+    }
+    
+    .card{
+        width: fit-content;
+    }
+  
+  }
+  

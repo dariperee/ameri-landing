@@ -37,3 +37,27 @@
 #shadowText{
     background-color: rgba(0, 0, 0, 0.493);
 }
+
+
+@media screen and (max-width: 420px) {
+    #sectionD{
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem;
+      justify-content: center;
+      background-color: white;
+      height: fit-content;
+    }
+  
+    #titleSectionD h1{
+        font-weight: 300;
+    }
+  
+
+    #titleSectionD{
+        height: 50%;
+        font-size: 1.5rem;
+        display: flex;
+        align-items: center;
+    }
+  }

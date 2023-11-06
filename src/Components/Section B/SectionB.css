@@ -22,3 +22,25 @@
   height: 3.1rem;
 }
 
+
+/* Añade estas reglas al final de tu archivo de estilos o en un archivo específico para estilos responsivos */
+
+@media screen and (max-width: 420px) {
+  #sectionB{
+    display: flex;
+    padding: 1rem;
+    justify-content: center;
+    background-color: white;
+  }
+
+  #sectionB img{
+    display: none;
+  }
+
+  #infoB{
+    text-align: center;
+    font-size: larger;
+    width: 80%;
+  }
+
+}
