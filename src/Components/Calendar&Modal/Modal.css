@@ -38,10 +38,15 @@
 }
 
   
-
-
-@media screen and (max-width: 420px) {
-  .modal-container {
-    
+@media screen and (max-width: 700px) {
+  .close-button {
+    margin-top: 3rem;
   }
+
+  .modal-content {
+    
+    margin-top: 3rem;
+  }
+
+  
 }

@@ -16,7 +16,7 @@ const ModalComponent = ({ isVisible, toggleVisibility }) => {
       setTimeout(() => {
         MySwal.fire({
           title: 'Estás por agendar una asesoría gratuita.',
-          html: 'Aquí te ayudaremos, resolviendo dudas, consultas, y explicándote nuestra forma de trabajo.<br/><br/> La reunion dura 20 minutos como maximo, sin compromiso. <br/><br/> Una vez selecionada la fecha y hora, se te enviara un mail detallado con más información.',
+          html: 'Aquí te ayudaremos, resolviendo dudas, consultas, y explicándote nuestra forma de trabajo.<br/><br/> La reunion dura 20 minutos como máximo, sin compromiso. <br/><br/> Una vez seleccionada la fecha y hora, se te enviará un mail detallado con más información.',
           icon: 'info',
           dangerMode: true, 
         });
@@ -29,12 +29,11 @@ const ModalComponent = ({ isVisible, toggleVisibility }) => {
     <div className={`modal-container ${isVisible ? 'visible' : ''}`}>
       <div className="modal-content">
         <div className="scrollable-content">
-          <Calendar />
+        <button className="close-button" onClick={toggleVisibility}>Cerrar</button>
+        <Calendar />
         </div>
       </div>
-      <button className="close-button" onClick={toggleVisibility}>
-        Cerrar
-      </button>
+     
     </div>
   );
 };
