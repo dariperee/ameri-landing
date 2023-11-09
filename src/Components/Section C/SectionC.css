@@ -9,8 +9,8 @@
 
 #sectionC h1{
     margin: 2rem;
-    font-size: 3rem;
     font-weight: 500;
+    font-size: 3rem;
 }
 
 #cards {
@@ -65,6 +65,7 @@
   
     #sectionC h1{
         text-align: center;
+        font-size: 2rem;
     }
 
     .card h2{
@@ -111,6 +112,7 @@
   
     #sectionC h1{
         text-align: center;
+        
     }
 
     .card h2{
@@ -131,4 +133,14 @@
         width: 100%;
     }
   
+  }
+
+
+  @media screen and (min-width: 1500px) {
+
+    #sectionC h1{
+        font-size: 4rem;
+    }
+  
+
   }

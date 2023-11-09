@@ -40,7 +40,21 @@ body, html {
   .button_slide {
     font-size: large;
   }
+  
 }
+
+@media screen and (min-width: 1500px) {
+
+p, h1, h2, li {
+  font-size: xx-large; /* Tamaño de fuente por defecto para pantallas más pequeñas */
+}
+
+.button_slide {
+  font-size: x-large;
+}
+
+}
+
 
 
 
