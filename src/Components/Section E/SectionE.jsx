@@ -53,8 +53,8 @@
               </div>
               <div>
                 <h2>Contacto</h2>
-                <p>+54 1234 5678 <br />
-                  hola@sitioincreible.com.ar</p>
+                <p>+541123929590 <br />
+                ameriagency2@gmail.com</p>
               </div>
             </div>
           </div>
